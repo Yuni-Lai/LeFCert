@@ -57,7 +57,8 @@ python -u main.py --dataset_type cifarfs --certify_model 'LeFCert-C' --C 5 --K 1
 ```
 
 To evaluate the certification performance of LeFCert on graph datasets:
-```cd ./LeFCert-GraphCLIP
+```
+cd ./LeFCert-GraphCLIP
 python -u main.py --dataset_type 'cora' --certify_model 'LeFCert' --C 5 --K 10
 ```
 
