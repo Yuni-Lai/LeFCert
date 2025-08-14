@@ -1,21 +1,10 @@
 # Provably Robust Adaptation for Language-Empowered Foundation Models
 
 
-
-
 ## Introduction
 This is the official PyTorch implementation of [**Provably Robust Adaptation for Language-Empowered Foundation Models**](https://arxiv.org/abs/2404.08631).
 **LeFCert** is a language-empowered few-shot certification. 
 
-This code is adapted from:
-```
-@article{wang2024fcert,
-  title={FCert: Certifiably Robust Few-Shot Classification in the Era of Foundation Models},
-  author={Wang, Yanting and Zou, Wei and Jia, Jinyuan},
-  journal={arXiv preprint arXiv:2404.08631},
-  year={2024}
-}
-```
 
 
 ## Environment
@@ -65,5 +54,15 @@ python -u main.py --dataset_type 'cora' --certify_model 'LeFCert' --C 5 --K 10
 ## License
 The paper is under review. Please do not distribute this code without the authors' permission. 
 
+## Acknowledgements
 
+This code is partially adapted from:
+```
+@article{wang2024fcert,
+  title={FCert: Certifiably Robust Few-Shot Classification in the Era of Foundation Models},
+  author={Wang, Yanting and Zou, Wei and Jia, Jinyuan},
+  journal={arXiv preprint arXiv:2404.08631},
+  year={2024}
+}
+```
 
